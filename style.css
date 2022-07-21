@@ -48,18 +48,15 @@ header ul li a{
     margin-left:40px;
     text-decoration: none;
 }
-.content .textBox a:hover{
+header ul li a:hover{
     display: inline-block;
-    margin-top: 20px;
-    padding:8px 20px;
-    background-color: #100808;
-    color: rgb(255, 251, 251);
-    border-radius:40px;
-    font-weight: 500;
-    letter-spacing: 1px;
+    color: rgb(197, 231, 119);
+    font-weight: bold;
+    font-size: 30px;
+    margin-left:40px;
     text-decoration: none;
-    text-transform: uppercase;
 }
+
  /* Content Section */
 .content{
     position: relative;
@@ -91,6 +88,18 @@ header ul li a{
     padding:8px 20px;
     background-color: #ffffff;
     color: #111;
+    border-radius:40px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.content .textBox a:hover{
+    display: inline-block;
+    margin-top: 20px;
+    padding:8px 20px;
+    background-color: #100808;
+    color: rgb(255, 251, 251);
     border-radius:40px;
     font-weight: 500;
     letter-spacing: 1px;
