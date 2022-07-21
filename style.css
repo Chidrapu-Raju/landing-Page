@@ -48,6 +48,18 @@ header ul li a{
     margin-left:40px;
     text-decoration: none;
 }
+content .textBox a:hover{
+    display: inline-block;
+    margin-top: 20px;
+    padding:8px 20px;
+    background-color: #100808;
+    color: rgb(255, 251, 251);
+    border-radius:40px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
  /* Content Section */
 .content{
     position: relative;
