@@ -136,6 +136,14 @@ header ul li a{
     transform: scale(0.6);
 
 }
+.social li a :hover{
+    display: inline-block;
+    filter:invert(1);
+    margin: 5px 0px;
+    transform: scale(0.6);
+    border-image-width: 30px;
+
+}
 /* Maximum Device Width 991px */
 @media (max-width: 991px) {
     section{
